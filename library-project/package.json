@@ -1,0 +1,14 @@
+{
+  "name": "@component-lib-example/library-project",
+  "version": "1.0.0",
+  "description": "A library project",
+  "main": "lib/index.js",
+  "scripts": {},
+  "author": "Oleksii Sapon",
+  "license": "ISC",
+  "repository": "",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}

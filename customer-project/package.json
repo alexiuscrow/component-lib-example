@@ -1,0 +1,28 @@
+{
+  "name": "@component-lib-example/customer-project",
+  "version": "1.0.0",
+  "description": "Customer application that uses project-a library",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development"
+  },
+  "author": "Oleksii Sapon",
+  "license": "ISC",
+  "repository": "",
+  "dependencies": {
+    "@component-lib-example/library-project": "file://../library-project"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
