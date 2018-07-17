@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { FirstComponent, SecondComponent } from '@lib/project-a';
+import { FirstComponent, SecondComponent } from '@component-lib-example/library-project';
+
+import './style';
+import '@component-lib-example/library-project/lib/FirstComponent/style';
+import '@component-lib-example/library-project/lib/SecondComponent/style';
 
 class App extends React.Component {
     render() {

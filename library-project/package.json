@@ -6,7 +6,10 @@
   "scripts": {},
   "author": "Oleksii Sapon",
   "license": "ISC",
-  "repository": "",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/alexiuscrow/component-lib-example.git"
+  },
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
